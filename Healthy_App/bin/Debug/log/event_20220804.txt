@@ -1,0 +1,51 @@
+[20220804144710] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804144711] [SockUtl.Connect()][行:116]System.ArgumentNullException: 值不能為 null。
+參數名稱: hostname
+   於 System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 108
+[20220804144711] [SockUtl.StartSocket()][行:71]System.ArgumentNullException: 值不能為 null。
+參數名稱: hostname
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 117
+   於 Healthy_App.SockUtl.StartSocket() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 40
+[20220804144743] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804144743] [SockUtl.Connect()][行:116]System.ArgumentNullException: 值不能為 null。
+參數名稱: hostname
+   於 System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 108
+[20220804144743] [SockUtl.StartSocket()][行:71]System.ArgumentNullException: 值不能為 null。
+參數名稱: hostname
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 117
+   於 Healthy_App.SockUtl.StartSocket() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 40
+[20220804144806] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804145117] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804145122] [SockUtl.Connect()][行:116]System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 192.168.1.105:50000
+   於 System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 108
+[20220804145122] [SockUtl.StartSocket()][行:71]System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 192.168.1.105:50000
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 117
+   於 Healthy_App.SockUtl.StartSocket() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 40
+[20220804145138] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804145306] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804145557] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804145828] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804150128] [SockUtl.Connect()][行:116]System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 192.168.1.105:50000
+   於 System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 108
+[20220804150128] [SockUtl.StartSocket()][行:71]System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 192.168.1.105:50000
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 117
+   於 Healthy_App.SockUtl.StartSocket() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 40
+[20220804150138] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804150143] [SockUtl.Connect()][行:116]System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 192.168.100.100:50000
+   於 System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 108
+[20220804150143] [SockUtl.StartSocket()][行:71]System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 192.168.100.100:50000
+   於 Healthy_App.SockUtl.Connect() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 117
+   於 Healthy_App.SockUtl.StartSocket() 於 D:\github\Healthy_App\Healthy_App\Lib\SockUtl.vb: 行 40
+[20220804151112] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804151117] [SockUtl.Connect()][行:121]Conn is OK
+[20220804151303] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804151303] [SockUtl.Connect()][行:121]Conn is OK
+[20220804151609] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804151609] [SockUtl.Connect()][行:121]Conn is OK
+[20220804152714] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804152716] [SockUtl.Connect()][行:121]Conn is OK
