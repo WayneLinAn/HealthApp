@@ -49,3 +49,13 @@
 [20220804151609] [SockUtl.Connect()][行:121]Conn is OK
 [20220804152714] [SockUtl.Connect()][行:97]Sock starts to Conn
 [20220804152716] [SockUtl.Connect()][行:121]Conn is OK
+[20220804153712] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804153712] [SockUtl.Connect()][行:121]Conn is OK
+[20220804153720] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804153720] [SockUtl.Connect()][行:121]Conn is OK
+[20220804153753] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804153753] [SockUtl.Connect()][行:121]Conn is OK
+[20220804153809] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804153809] [SockUtl.Connect()][行:121]Conn is OK
+[20220804153914] [SockUtl.Connect()][行:97]Sock starts to Conn
+[20220804153914] [SockUtl.Connect()][行:121]Conn is OK

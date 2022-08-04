@@ -207,5 +207,46 @@ Public Class Login
         End Try
 
     End Sub
+    Private Sub Txt_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txt_emp_pwd.KeyPress
 
+        If AscW(e.KeyChar) = 0 Or AscW(e.KeyChar) = Keys.Enter Then
+
+            ExeLogin()
+
+        End If
+
+    End Sub
+
+    Private Sub CloseAll()
+
+        'tmr_healthy.Enabled = False
+
+        If my_com IsNot Nothing Then
+            my_com.StopCom()
+            my_com = Nothing
+        End If
+
+        If my_sock IsNot Nothing Then
+            my_sock.StopSocket()
+            my_sock = Nothing
+        End If
+
+        If my_db IsNot Nothing Then
+            my_db.conn_close()
+            my_db = Nothing
+        End If
+
+        If my_log IsNot Nothing Then
+            my_log.StopLog()
+            my_log = Nothing
+        End If
+
+    End Sub
+
+    Private Sub btn_close_Click(sender As Object, e As EventArgs) Handles btn_close.Click
+
+        CloseAll()
+        Me.Close()
+
+    End Sub
 End Class
